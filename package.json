@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "learn typescript",
+  "main": "index.js",
+  "author": "xyngc0de",
+  "license": "MIT",
+  "scripts": {
+    "tsc-win": "del -f build && tsc",
+    "ts-win": "del -f build && tsc -w",
+    "tsc-unix": "rm -rf build/ &&tsc",
+    "ts-unix": "rm -rf build/ &&tsc -w",
+    "dev": "nodemon ./build/genericClass.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
