@@ -13,7 +13,7 @@
     "ts-win": "del -f build && tsc -w",
     "tsc-unix": "rm -rf build/ &&tsc",
     "ts-unix": "rm -rf build/ &&tsc -w",
-    "dev": "nodemon ./build/genericClass.js"
+    "dev": "nodemon ./build/modules/Product.js"
   },
   "dependencies": {
     "nodemon": "^2.0.16"
